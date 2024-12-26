@@ -1,10 +1,11 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { markCompleted, markInCompleted, removeTodo, toggleTodo } from "../redux/action/actiontypes";
+
 import { BsToggle2Off } from "react-icons/bs";
 import { BsToggle2On } from "react-icons/bs";
 import { FaCheck, FaTrash } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
+import { markCompleted, markInCompleted, removeTodo, toggleTodo } from "../redux/action/actions";
 const TodoItems = ({ todo, index }) => {
   const dispatch = useDispatch();
   return (

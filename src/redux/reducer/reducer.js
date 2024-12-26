@@ -7,7 +7,7 @@ import {
   REMOVE_TODO,
   SEARCH_TODO,
   TOGGLE_TODO,
-} from "../action/actions";
+} from "../action/actiontypes";
 
 const initialState = {
   todos: [],

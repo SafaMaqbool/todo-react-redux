@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import { addTodo, updateSearchTodo } from "../redux/action/actiontypes";
+import { addTodo, updateSearchTodo,  } from "../redux/action/actions";
 import FilterButton from "./FilterButton";
 import { FaSearch } from "react-icons/fa";
 import List from "./List";
